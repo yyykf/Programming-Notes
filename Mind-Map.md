@@ -1,7 +1,8 @@
 ## MySQL实战45讲
 
 - 索引篇
-  - [索引（上）](https://www.yuque.com/docs/share/89528941-1f2b-4963-a4e1-e5905746ee80)
+  - [04&05 - 索引](https://www.yuque.com/docs/share/89528941-1f2b-4963-a4e1-e5905746ee80)
+  - [09 - 普通索引和唯一索引的选择](https://www.yuque.com/docs/share/375d065e-bd02-475e-8330-33ff98f7402b)
 
 ## Dubbo相关
 
