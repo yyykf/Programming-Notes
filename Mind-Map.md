@@ -3,6 +3,7 @@
 - 索引篇
   - [04&05 - 索引](https://www.yuque.com/docs/share/89528941-1f2b-4963-a4e1-e5905746ee80)
   - [09 - 普通索引和唯一索引的选择](https://www.yuque.com/docs/share/375d065e-bd02-475e-8330-33ff98f7402b)
+  - [10 - 优化器选择索引的原则](https://www.yuque.com/docs/share/08c07525-8347-4273-9d9b-8450fadc179c)
 
 ## Dubbo相关
 
