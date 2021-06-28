@@ -4,6 +4,7 @@
   - [04&05 - 索引](https://www.yuque.com/docs/share/89528941-1f2b-4963-a4e1-e5905746ee80)
   - [09 - 普通索引和唯一索引的选择](https://www.yuque.com/docs/share/375d065e-bd02-475e-8330-33ff98f7402b)
   - [10 - 优化器选择索引的原则](https://www.yuque.com/docs/share/08c07525-8347-4273-9d9b-8450fadc179c)
+  - [11 - 字符串索引](https://www.yuque.com/docs/share/b5c900d0-9ebf-4e51-bcb2-25d7b3ab806f)
 
 ## Dubbo相关
 
@@ -60,3 +61,4 @@
 - [22 - RPC动态分组](https://www.yuque.com/docs/share/ec28384f-d62e-49a1-8b12-0a8f40e83b5a)
 
 - [23 - RPC泛化调用](https://www.yuque.com/docs/share/e76de01f-efb3-49aa-84a4-a011cfd68665)
+
