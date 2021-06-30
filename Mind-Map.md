@@ -6,6 +6,7 @@
   - [10 - 优化器选择索引的原则](https://www.yuque.com/docs/share/08c07525-8347-4273-9d9b-8450fadc179c)
   - [11 - 字符串索引](https://www.yuque.com/docs/share/b5c900d0-9ebf-4e51-bcb2-25d7b3ab806f)
   - [16 - 索引排序](https://www.yuque.com/docs/share/e3868458-b774-4fc5-b200-597ff43f48c4)
+  - [18 - 索引失效情形](https://www.yuque.com/docs/share/8d57edfa-2db0-4bed-b062-8741643cf3cb)
 
 ## Dubbo相关
 
