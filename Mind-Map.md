@@ -13,6 +13,7 @@
   - [12 - 刷脏页](https://www.yuque.com/docs/share/71db07f0-d5be-473f-9b6f-4ebfcf409214)
   - [15 - 日志相关问题](https://www.yuque.com/docs/share/234d876b-421d-4062-a14a-ad0721c01ceb)
   - [23 - 日志持久化](https://www.yuque.com/docs/share/e1b4daaa-5940-4be7-ad9c-484fa6dee211)
+  - [24 - 主从同步](https://www.yuque.com/docs/share/a0f31ebf-3eab-482f-befb-c7ecda6dd7b6)
 
 ## Dubbo相关
 
