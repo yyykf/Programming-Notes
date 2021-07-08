@@ -2,23 +2,36 @@
 
 - 索引篇
   - [04&05 - 索引](https://www.yuque.com/docs/share/89528941-1f2b-4963-a4e1-e5905746ee80)
+
   - [09 - 普通索引和唯一索引的选择](https://www.yuque.com/docs/share/375d065e-bd02-475e-8330-33ff98f7402b)
+
   - [10 - 优化器选择索引的原则](https://www.yuque.com/docs/share/08c07525-8347-4273-9d9b-8450fadc179c)
+
   - [11 - 字符串索引](https://www.yuque.com/docs/share/b5c900d0-9ebf-4e51-bcb2-25d7b3ab806f)
+
   - [16 - 索引排序](https://www.yuque.com/docs/share/e3868458-b774-4fc5-b200-597ff43f48c4)
+
   - [18 - 索引失效情形](https://www.yuque.com/docs/share/8d57edfa-2db0-4bed-b062-8741643cf3cb)
+
 - 日志篇
   - [01 - 基础架构](https://www.yuque.com/docs/share/b580f1e3-bd33-43e9-8e03-fd03fc33e592)
+
   - [02 - 日志系统](https://www.yuque.com/docs/share/082e40f8-f80e-4f7d-bc10-ce586b489d68)
+
   - [12 - 刷脏页](https://www.yuque.com/docs/share/71db07f0-d5be-473f-9b6f-4ebfcf409214)
+
   - [15 - 日志相关问题](https://www.yuque.com/docs/share/234d876b-421d-4062-a14a-ad0721c01ceb)
+
   - [23 - 日志持久化](https://www.yuque.com/docs/share/e1b4daaa-5940-4be7-ad9c-484fa6dee211)
+
   - [24 - 主从同步](https://www.yuque.com/docs/share/a0f31ebf-3eab-482f-befb-c7ecda6dd7b6)
 
 ## Dubbo相关
 
 - [Dubbo知识点总结](https://www.yuque.com/docs/share/2cfeb326-2416-428b-aab2-c21908d4d38d)
+
 - [Dubbo动态编译](https://www.yuque.com/docs/share/29af8dfb-fae2-4e69-9281-1cc281e33d05)
+
 - [Dubbo SPI机制](https://www.yuque.com/docs/share/d821bf2a-f942-4a06-8d14-6f3644aee156)
 
 ## RPC实战与核心原理
