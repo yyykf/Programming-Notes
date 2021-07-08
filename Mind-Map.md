@@ -26,6 +26,8 @@
 
   - [24 - 主从同步](https://www.yuque.com/docs/share/a0f31ebf-3eab-482f-befb-c7ecda6dd7b6)
 
+  - [25 - 主从延迟及切换策略](https://www.yuque.com/docs/share/3ebecae9-4761-4e76-be30-79c280c6a8f3)
+
 ## Dubbo相关
 
 - [Dubbo知识点总结](https://www.yuque.com/docs/share/2cfeb326-2416-428b-aab2-c21908d4d38d)
