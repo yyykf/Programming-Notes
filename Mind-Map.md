@@ -1,6 +1,7 @@
 ## MySQL实战45讲
 
 - 索引篇
+
   - [04&05 - 索引](https://www.yuque.com/docs/share/89528941-1f2b-4963-a4e1-e5905746ee80)
 
   - [09 - 普通索引和唯一索引的选择](https://www.yuque.com/docs/share/375d065e-bd02-475e-8330-33ff98f7402b)
@@ -14,6 +15,7 @@
   - [18 - 索引失效情形](https://www.yuque.com/docs/share/8d57edfa-2db0-4bed-b062-8741643cf3cb)
 
 - 日志篇
+
   - [01 - 基础架构](https://www.yuque.com/docs/share/b580f1e3-bd33-43e9-8e03-fd03fc33e592)
 
   - [02 - 日志系统](https://www.yuque.com/docs/share/082e40f8-f80e-4f7d-bc10-ce586b489d68)
@@ -27,6 +29,8 @@
   - [24 - 主从同步](https://www.yuque.com/docs/share/a0f31ebf-3eab-482f-befb-c7ecda6dd7b6)
 
   - [25 - 主从延迟及切换策略](https://www.yuque.com/docs/share/3ebecae9-4761-4e76-be30-79c280c6a8f3)
+
+  - [26 - 从库的并行复制策略](https://www.yuque.com/docs/share/dd4f01ec-1019-4871-a0fb-249aeea54e57)
 
 ## Dubbo相关
 
