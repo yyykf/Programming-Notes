@@ -32,6 +32,8 @@
 
   - [26 - 从库的并行复制策略](https://www.yuque.com/docs/share/dd4f01ec-1019-4871-a0fb-249aeea54e57)
 
+  - [27 - 一主多从架构](https://www.yuque.com/docs/share/54786c13-3282-4942-8e2a-dfc8736797a7)
+
 ## Dubbo相关
 
 - [Dubbo知识点总结](https://www.yuque.com/docs/share/2cfeb326-2416-428b-aab2-c21908d4d38d)
