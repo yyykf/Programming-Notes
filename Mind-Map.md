@@ -34,6 +34,8 @@
 
   - [27 - 一主多从架构](https://www.yuque.com/docs/share/54786c13-3282-4942-8e2a-dfc8736797a7)
 
+  - [28 - 读写分离](https://www.yuque.com/docs/share/edc30b68-30f3-4ea7-ad76-0f548883db98)
+
 ## Dubbo相关
 
 - [Dubbo知识点总结](https://www.yuque.com/docs/share/2cfeb326-2416-428b-aab2-c21908d4d38d)
