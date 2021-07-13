@@ -36,6 +36,8 @@
 
   - [28 - 读写分离](https://www.yuque.com/docs/share/edc30b68-30f3-4ea7-ad76-0f548883db98)
 
+  - [29 - 故障判断](https://www.yuque.com/docs/share/9ac4ef24-fffb-4f05-856d-f451295d9780)
+
 ## Dubbo相关
 
 - [Dubbo知识点总结](https://www.yuque.com/docs/share/2cfeb326-2416-428b-aab2-c21908d4d38d)
