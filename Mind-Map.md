@@ -38,6 +38,8 @@
 
   - [29 - 故障判断](https://www.yuque.com/docs/share/9ac4ef24-fffb-4f05-856d-f451295d9780)
 
+  - [31 - 数据恢复](https://www.yuque.com/docs/share/2515d75f-973f-4699-8e66-d4ba1c5e9e4b)
+
 ## Dubbo相关
 
 - [Dubbo知识点总结](https://www.yuque.com/docs/share/2cfeb326-2416-428b-aab2-c21908d4d38d)
