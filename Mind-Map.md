@@ -42,7 +42,9 @@
 
 - 事务篇
 
-  - [03 - 事务隔离](https://www.yuque.com/docs/share/1d8b9b9c-eda3-40c3-888e-f5a8a28280a0)
+  - [03 - 事务隔离（上）](https://www.yuque.com/docs/share/1d8b9b9c-eda3-40c3-888e-f5a8a28280a0)
+
+  - [08 - 事务隔离（下）](https://www.yuque.com/docs/share/862b4a48-cf3e-4b29-ac53-3251d909308c)
 
 ## Dubbo相关
 
