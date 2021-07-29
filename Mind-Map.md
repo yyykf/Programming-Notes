@@ -48,6 +48,10 @@
 
   - [20 - 幻读](https://www.yuque.com/docs/share/76f10e16-d377-4d0f-a773-b236700d1e44)
 
+- 锁篇
+
+  - [06 - 全局锁和表级锁](https://www.yuque.com/docs/share/3baab14e-9e8a-458c-a163-0ce6de4ce8e6)
+
 ## Dubbo相关
 
 - [Dubbo知识点总结](https://www.yuque.com/docs/share/2cfeb326-2416-428b-aab2-c21908d4d38d)
