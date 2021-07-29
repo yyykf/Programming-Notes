@@ -52,6 +52,8 @@
 
   - [06 - 全局锁和表级锁](https://www.yuque.com/docs/share/3baab14e-9e8a-458c-a163-0ce6de4ce8e6)
 
+  - [07 - 行锁](https://www.yuque.com/docs/share/cc4f6fbe-d34c-4822-bea6-44f29199fe4a)
+
 ## Dubbo相关
 
 - [Dubbo知识点总结](https://www.yuque.com/docs/share/2cfeb326-2416-428b-aab2-c21908d4d38d)
