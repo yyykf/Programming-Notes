@@ -58,6 +58,8 @@
 
 - [基础架构](https://www.yuque.com/docs/share/6bc9472f-c7ad-456a-9863-3d8c34ea0fb7)
 
+- [启动选项和系统变量](https://www.yuque.com/docs/share/85f6e24e-ffce-47a1-be3b-282649bb46b2)
+
 ## Dubbo相关
 
 - [Dubbo知识点总结](https://www.yuque.com/docs/share/2cfeb326-2416-428b-aab2-c21908d4d38d)
