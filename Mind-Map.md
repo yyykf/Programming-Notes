@@ -54,6 +54,10 @@
 
   - [07 - 行锁](https://www.yuque.com/docs/share/cc4f6fbe-d34c-4822-bea6-44f29199fe4a)
 
+## MySQL是怎样运行的
+
+- [基础架构](https://www.yuque.com/docs/share/6bc9472f-c7ad-456a-9863-3d8c34ea0fb7)
+
 ## Dubbo相关
 
 - [Dubbo知识点总结](https://www.yuque.com/docs/share/2cfeb326-2416-428b-aab2-c21908d4d38d)
