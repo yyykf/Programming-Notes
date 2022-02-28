@@ -62,6 +62,8 @@
 
 - [字符集和比较规则](https://www.yuque.com/docs/share/dfc109aa-e963-420c-b3b0-a6256db30daf)
 
+- [InnoDB记录结构](https://www.yuque.com/docs/share/ab665fff-c52a-4d75-b77d-4397dd18fd64)
+
 ## Dubbo相关
 
 - [Dubbo知识点总结](https://www.yuque.com/docs/share/2cfeb326-2416-428b-aab2-c21908d4d38d)
