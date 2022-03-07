@@ -68,6 +68,8 @@
 
 - [InnoDB索引结构](https://www.yuque.com/docs/share/ca579a42-c331-4b82-be41-4353e02139e1)
 
+- [B+树索引使用](https://www.yuque.com/docs/share/70c4291a-55f0-4232-885f-a73d56d8f4b6)
+
 ## Dubbo相关
 
 - [Dubbo知识点总结](https://www.yuque.com/docs/share/2cfeb326-2416-428b-aab2-c21908d4d38d)
