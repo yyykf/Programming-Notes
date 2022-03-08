@@ -70,6 +70,8 @@
 
 - [B+树索引使用](https://www.yuque.com/docs/share/70c4291a-55f0-4232-885f-a73d56d8f4b6)
 
+- [MySQL数据目录](https://www.yuque.com/docs/share/83ce5e09-5f52-46aa-9d1b-fe46661163ae)
+
 ## Dubbo相关
 
 - [Dubbo知识点总结](https://www.yuque.com/docs/share/2cfeb326-2416-428b-aab2-c21908d4d38d)
