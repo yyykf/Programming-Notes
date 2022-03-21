@@ -6,7 +6,7 @@
   
 ## 随笔
 
-- [String#intern()发生了啥](docs/String#intern()发生了啥.md)
+- [String#intern()发生了啥](docs/String#intern发生了啥.md)
 
 - [简单工厂模式](docs/简单工厂模式.md)
 
