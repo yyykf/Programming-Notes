@@ -52,7 +52,7 @@ public @interface EnableTransactionManagement {
 
 从上面的「JavaDoc」可以知道，`proxyTargetClass` 属性指示了是否要代理目标类，也就是使用「Cglib 代理」。而默认情况下，这三个注解的该属性都是 `false`，代表不开启「Cglib 代理」。同时，从 `@EnableAsync` 和 `@EnableTransactionManagement` 中该属性的「JavaDoc」我们还可以知道，如果将 `proxyTargetClass` 指定为 `true` 的话，那么容器中所有需要代理的 Bean 都会受到该设置的影响，而不仅仅是那些标注了 `@Transactional` 和 `@Async` 注解的 Bean。
 
-其实 `@EnableAsync` 和 `@EnableTransactionManagement` 注解的 `mode` 属性的「JavaDoc」中还提到了一个平常在使用事务或者异步时经常会踩的坑，就是类内调用事务方法或者异步方法不生效。因为该属性的默认值为 `AdviceMode.PROXY`。代表只有通过代理对象访问这些事务方法或者异步方法时，增强才会生效，而对于类内调用的事务方法或者异步方法，由于本质上是通过目标对象直接去访问的，并未经过代理对象，因此这些增强是不会生效的。如果想要这种类内调用的场景也能被增强，那就应该考虑 `AdviceMode.ASPECTJ` 模式。
+> 其实 `@EnableAsync` 和 `@EnableTransactionManagement` 注解的 `mode` 属性的「JavaDoc」中还提到了一个平常在使用事务或者异步时经常会踩的坑，就是类内调用事务方法或者异步方法不生效。因为该属性的默认值为 `AdviceMode.PROXY`。代表只有通过代理对象访问这些事务方法或者异步方法时，增强才会生效，而对于类内调用的事务方法或者异步方法，由于本质上是通过目标对象直接去访问的，并未经过代理对象，因此这些增强是不会生效的。如果想要这种类内调用的场景也能被增强，那就应该考虑 `AdviceMode.ASPECTJ` 模式。
 
 至于具体的 AOP 代理对象创建过程中，`proxyTargetClass` 最终是怎么生效的，其实答案是藏在 `org.springframework.aop.framework.DefaultAopProxyFactory#createAopProxy` 方法中。
 
@@ -83,4 +83,4 @@ public class DefaultAopProxyFactory implements AopProxyFactory, Serializable {
 
 至于文档说的该配置会影响到所有容器中需要被代理的对象，大家自行到源码中找答案吧。
 
-其实是因为我也不会，太久没看 Spring 源码了。大概是因为 `DefaultAopProxyFactory` 是一个全局的配置吧，挖个坑有空补上。（逃
+> 其实是因为我也不会，太久没看 Spring 源码了。大概是因为 `DefaultAopProxyFactory` 是一个全局的配置吧，挖个坑有空补上。（逃
