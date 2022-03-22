@@ -11,3 +11,7 @@
 - [简单工厂模式](docs/简单工厂模式.md)
 
 - [隐藏在ThreadLocal中的魔数](docs/隐藏在ThreadLocal中的魔数.md)
+
+- [关于Spring的代理方式](docs/关于Spring的代理方式.md)
+
+- [关于Mybatis的两级缓存](docs/关于Mybatis的两级缓存.md)
