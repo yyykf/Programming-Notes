@@ -157,7 +157,7 @@ public abstract class AbstractApplicationContext extends DefaultResourceLoader
 			applicationEvent = (ApplicationEvent) event;
 		}
 		else {
-            // 对于不是 ApplicationEvent 的事件，将其封装成 PayloadApplicationEvent，第一个参数 source 使用当前容器，代表该事件是当前容器发布的
+      // 对于不是 ApplicationEvent 的事件，将其封装成 PayloadApplicationEvent，第一个参数 source 使用当前容器，代表该事件是当前容器发布的
 			applicationEvent = new PayloadApplicationEvent<>(this, event);
 			if (eventType == null) {
 				eventType = ((PayloadApplicationEvent<?>) applicationEvent).getResolvableType();
@@ -169,7 +169,7 @@ public abstract class AbstractApplicationContext extends DefaultResourceLoader
 			this.earlyApplicationEvents.add(applicationEvent);
 		}
 		else {
-            // 将当前事件发布出去
+      // 将当前事件发布出去
 			getApplicationEventMulticaster().multicastEvent(applicationEvent, eventType);
 		}
 
@@ -195,16 +195,16 @@ public class SimpleApplicationEventMulticaster extends AbstractApplicationEventM
     
 	@Override
 	public void multicastEvent(final ApplicationEvent event, @Nullable ResolvableType eventType) {
-        // 事件的类型
+    // 事件的类型
 		ResolvableType type = (eventType != null ? eventType : resolveDefaultEventType(event));
 		Executor executor = getTaskExecutor();
-        // 获取到监听该事件类型的所有监听器，并同步或异步调用
+    // 获取到监听该事件类型的所有监听器，并同步或异步调用
 		for (ApplicationListener<?> listener : getApplicationListeners(event, type)) {
 			if (executor != null) {
 				executor.execute(() -> invokeListener(listener, event));
 			}
 			else {
-                // 同步调用监听器
+        // 同步调用监听器
 				invokeListener(listener, event);
 			}
 		}
@@ -227,14 +227,14 @@ public class SimpleApplicationEventMulticaster extends AbstractApplicationEventM
 			}
 		}
 		else {
-            // 调用监听器
+      // 调用监听器
 			doInvokeListener(listener, event);
 		}
 	}
     
 	private void doInvokeListener(ApplicationListener listener, ApplicationEvent event) {
 		try {
-            // 调用监听器
+      // 调用监听器
 			listener.onApplicationEvent(event);
 		}
 		catch (ClassCastException ex) {
@@ -297,7 +297,7 @@ public abstract class AbstractApplicationEventMulticaster
 		}
 		else {
 			// No ListenerRetriever caching -> no synchronization necessary
-            // 检索监听该事件类型的监听器
+      // 检索监听该事件类型的监听器
 			return retrieveApplicationListeners(eventType, sourceType, null);
 		}
 	}
@@ -330,8 +330,8 @@ public abstract class AbstractApplicationEventMulticaster
 				allListeners.add(listener);
 			}
 		}
-        
-        // 省略其他检索步骤...
+    
+    // 省略其他检索步骤...
 		return allListeners;
 }
 ```
@@ -349,7 +349,7 @@ class ApplicationListenerMethodTransactionalAdapter extends ApplicationListenerM
 	public void onApplicationEvent(ApplicationEvent event) {
 		if (TransactionSynchronizationManager.isSynchronizationActive() &&
 				TransactionSynchronizationManager.isActualTransactionActive()) {
-            // 如果当前线程存在活跃的事务，那就创建一个事务相关的钩子，用于在事务各个阶段被触发
+      // 如果当前线程存在活跃的事务，那就创建一个事务相关的钩子，用于在事务各个阶段被触发
 			TransactionSynchronization transactionSynchronization = createTransactionSynchronization(event);
 			TransactionSynchronizationManager.registerSynchronization(transactionSynchronization);
 		}
@@ -357,7 +357,7 @@ class ApplicationListenerMethodTransactionalAdapter extends ApplicationListenerM
 			if (this.annotation.phase() == TransactionPhase.AFTER_ROLLBACK && logger.isWarnEnabled()) {
 				logger.warn("Processing " + event + " as a fallback execution on AFTER_ROLLBACK phase");
 			}
-            // 如果没有事务存在，但是 fallbackExecution 为 true，那就直接调用监听器中的方法
+      // 如果没有事务存在，但是 fallbackExecution 为 true，那就直接调用监听器中的方法
 			processEvent(event);
 		}
 		else {
@@ -397,15 +397,15 @@ class ApplicationListenerMethodTransactionalAdapter extends ApplicationListenerM
 		@Override
 		public void afterCompletion(int status) {
 			if (this.phase == TransactionPhase.AFTER_COMMIT && status == STATUS_COMMITTED) {
-                // 配置了事务提交后，并且当前事务为已提交
+        // 配置了事务提交后，并且当前事务为已提交
 				processEvent();
 			}
 			else if (this.phase == TransactionPhase.AFTER_ROLLBACK && status == STATUS_ROLLED_BACK) {
-                // 配置了事务回滚后，并且当前事务为已回滚
+        // 配置了事务回滚后，并且当前事务为已回滚
 				processEvent();
 			}
 			else if (this.phase == TransactionPhase.AFTER_COMPLETION) {
-                // 配置了事务完成后
+        // 配置了事务完成后
 				processEvent();
 			}
 		}
@@ -433,9 +433,9 @@ public abstract class AbstractPlatformTransactionManager implements PlatformTran
 			try {
 				boolean unexpectedRollback = false;
 				prepareForCommit(status);
-                // 触发事务提交前钩子
+        // 触发事务提交前钩子
 				triggerBeforeCommit(status);
-                // 触发事务完成前钩子
+        // 触发事务完成前钩子
 				triggerBeforeCompletion(status);
 				beforeCompletionInvoked = true;
 
@@ -451,7 +451,7 @@ public abstract class AbstractPlatformTransactionManager implements PlatformTran
 						logger.debug("Initiating transaction commit");
 					}
 					unexpectedRollback = status.isGlobalRollbackOnly();
-                    // 事务提交
+          // 事务提交
 					doCommit(status);
 				}
 				else if (isFailEarlyOnGlobalRollbackOnly()) {
@@ -491,11 +491,11 @@ public abstract class AbstractPlatformTransactionManager implements PlatformTran
 			// Trigger afterCommit callbacks, with an exception thrown there
 			// propagated to callers but the transaction still considered as committed.
 			try {
-                // 触发事务提交后钩子
+        // 触发事务提交后钩子
 				triggerAfterCommit(status);
 			}
 			finally {
-                // 触发事务完成钩子
+        // 触发事务完成钩子
 				triggerAfterCompletion(status, TransactionSynchronization.STATUS_COMMITTED);
 			}
 
