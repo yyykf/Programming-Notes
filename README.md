@@ -15,3 +15,5 @@
 - [关于Spring的代理方式](docs/关于Spring的代理方式.md)
 
 - [关于Mybatis的两级缓存](docs/关于Mybatis的两级缓存.md)
+
+- [关于在Spring事务后执行业务操作的场景](docs/关于在Spring事务后执行业务操作的场景.md)
