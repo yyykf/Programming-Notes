@@ -159,3 +159,5 @@
 - [关于在Spring事务后执行业务操作的场景](docs/关于在Spring事务后执行业务操作的场景.md)
 
 - [关于Object#clone的一点注意事项](docs/Object#clone的注意事项.md)
+
+- [初始化HashMap的骚操作](docs/初始化HashMap的骚操作.md)
