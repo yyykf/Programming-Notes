@@ -141,6 +141,8 @@
 - [工厂模式](https://www.yuque.com/docs/share/2328ee90-0cbd-43e5-9708-dc8679bac4c5)
 
 - [建造者模式](https://www.yuque.com/docs/share/86304da5-b0d3-4cb1-96b0-e3778b972fb0)
+
+- [原型模式](https://www.yuque.com/docs/share/d0410e90-5079-4838-bee5-abec1491c809)
   
 ## 随笔
 
