@@ -130,3 +130,10 @@
 
 - [23 - RPC泛化调用](https://www.yuque.com/docs/share/e76de01f-efb3-49aa-84a4-a011cfd68665)
 
+## 设计模式
+
+- [六大原则](https://www.yuque.com/docs/share/67652e0f-504e-4853-a6dd-47428f53d144)
+
+- [工厂模式](https://www.yuque.com/docs/share/2328ee90-0cbd-43e5-9708-dc8679bac4c5)
+
+- [建造者模式](https://www.yuque.com/docs/share/86304da5-b0d3-4cb1-96b0-e3778b972fb0)
