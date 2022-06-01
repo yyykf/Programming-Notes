@@ -163,3 +163,5 @@
 - [初始化HashMap的骚操作](docs/初始化HashMap的骚操作.md)
 
 - [关于CHAR和VARCHAR的存储](docs/关于CHAR和VARCHAR的存储.md)
+
+- [关于Junit5的一些用法.md](docs/关于Junit5的一些用法.md)
