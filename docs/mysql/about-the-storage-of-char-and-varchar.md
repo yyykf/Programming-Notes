@@ -1,3 +1,7 @@
+---
+title: 关于CHAR和VARCHAR的存储
+isOriginal: true
+---
 根据 MySQL 官方文档，`CHAR` 类型和 `VARCHAR` 主要是在存储和查询的时候有所区别，以及在列的最大长度和是否保留尾随空格「trailing spaces」也有些不一样。
 
 对于 `CHAR(N)` 而言，N 的范围为 `[0, 255]`，其列值的长度在定义表时就是确定的了。当保存一个 `CHAR(N)` 列值时，如果列值的长度不足 `N`，那么就需要在尾部填充空格「right-padded with spaces」，使其达到长度 `N`。同时，这些尾随空格在查询的时候又会自动被移除。

@@ -1,3 +1,7 @@
+---
+title: 隐藏在ThreadLocal中的魔数
+isOriginal: true
+---
 ThraedLocal 中的 Hash 码增量 `0x61c88647` 有什么含义呢？
 
 ```java

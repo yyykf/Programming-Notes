@@ -1,3 +1,7 @@
+---
+title: Object.clone()的注意事项
+isOriginal: true
+---
 先明确一点，`clone()` 方法是浅拷贝，而不是深拷贝，具体可以见下方的「JavaDoc」。
 
 ```java

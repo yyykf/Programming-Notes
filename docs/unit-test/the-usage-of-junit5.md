@@ -1,3 +1,7 @@
+---
+title: 关于Junit5的一些用法
+isOriginal: true
+---
 #### 1. @RepeatedTest 的使用
 
 如果在测试某个用例的时候，需要重复执行多次，那么就可以使用 `@RepeatedTest` 指定重复执行的次数。**需要说明的是，使用 `@RepeatedTest` 标注的方法，返回值必须是 `void`，同时限定修饰符不能是 `private` 或者 `static`。**

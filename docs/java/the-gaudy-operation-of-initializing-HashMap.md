@@ -1,3 +1,7 @@
+---
+title: 初始化HashMap的骚操作
+isOriginal: true
+---
 直接上代码。
 
 ```java
