@@ -34,7 +34,10 @@ export const sidebarConfig = sidebar({
             text: 'Mybatis',
             prefix: "mybatis/",
             collapsable: true,
-            children: ['the-secondary-cache-of-mybatis'],
+            children: [
+                'the-secondary-cache-of-mybatis',
+                'usage-of-enumeration-in-mybatis'
+            ],
         },
         {
             text: '设计模式',
