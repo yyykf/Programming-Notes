@@ -15,7 +15,7 @@ export const sidebarConfig = sidebar({
             ],
         },
         {
-            text: 'MysQL',
+            text: 'MySQL',
             prefix: "mysql/",
             collapsable: true,
             children: [
@@ -37,6 +37,14 @@ export const sidebarConfig = sidebar({
             children: [
                 'the-secondary-cache-of-mybatis',
                 'usage-of-enumeration-in-mybatis'
+            ],
+        },
+        {
+            text: 'JVM',
+            prefix: "jvm/",
+            collapsable: true,
+            children: [
+                'java-and-thread',
             ],
         },
         {
