@@ -8,3 +8,4 @@ dir:
 ## 目录
 
 - [简单工厂模式](simple-factory-pattern.md)
+- [模板模式](template-pattern.md)

@@ -43,7 +43,10 @@ export const sidebarConfig = sidebar({
             text: '设计模式',
             prefix: "design-pattern/",
             collapsable: true,
-            children: ["simple-factory-pattern"]
+            children: [
+                'simple-factory-pattern',
+                'template-pattern'
+            ]
         },
         {
             text: '单元测试',
