@@ -18,7 +18,7 @@ export const sidebarConfig = sidebar({
             text: 'MysQL',
             prefix: "mysql/",
             collapsable: true,
-            children: ['about-the-storage-of-char-and-varchar'],
+            children: ['about-the-storage-of-char-and-varchar','the-difference-between-in-and-exists-for-sub-query'],
         },
         {
             text: 'Spring',
