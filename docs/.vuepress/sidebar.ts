@@ -61,6 +61,14 @@ export const sidebarConfig = sidebar({
             ]
         },
         {
+            text: '杂七杂八',
+            prefix: "misc/",
+            collapsable: true,
+            children: [
+                'how-to-design-a-thread-safe-queue',
+            ]
+        },
+        {
             text: '单元测试',
             prefix: "unit-test/",
             collapsable: true,
