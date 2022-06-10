@@ -28,7 +28,11 @@ export const sidebarConfig = sidebar({
             text: 'Spring',
             prefix: "spring/",
             collapsable: true,
-            children: ['how-to-make-operation-executed-after-transaction','the-proxy-mode'],
+            children: [
+                'how-to-make-operation-executed-after-transaction',
+                'the-proxy-mode',
+                'the-difference-between-ThreadPoolExecutor-and-ThreadPoolTaskExecutor',
+            ],
         },
         {
             text: 'Mybatis',
