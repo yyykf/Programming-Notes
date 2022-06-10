@@ -66,6 +66,7 @@ export const sidebarConfig = sidebar({
             collapsable: true,
             children: [
                 'how-to-design-a-thread-safe-queue',
+                'the-tutorial-of-class-diagram-of-mermaid',
             ]
         },
         {

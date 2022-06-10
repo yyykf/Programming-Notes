@@ -43,6 +43,8 @@ export default hopeTheme({
         blog: true,
         mdEnhance: {
             tasklist: true,
+            mermaid: true,
+            demo: true,
         },
         // feed: {
         //     json: true,
