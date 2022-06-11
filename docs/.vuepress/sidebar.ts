@@ -11,7 +11,8 @@ export const sidebarConfig = sidebar({
                 "the-notes-of-object-clone",
                 "what-happens-to-string-intern",
                 "the-magic-number-that-hides-under-Threadlocal",
-                "the-gaudy-operation-of-initializing-HashMap"
+                "the-gaudy-operation-of-initializing-HashMap",
+                "use-integer-as-monitor-of-synchronized",
             ],
         },
         {

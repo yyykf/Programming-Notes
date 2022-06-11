@@ -15,3 +15,4 @@ dir:
 
 - [String.intern()发生了啥](what-happens-to-string-intern.md)
 
+- [关于Integer作为synchronized锁对象的问题](use-integer-as-monitor-of-synchronized.md)
