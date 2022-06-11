@@ -42,9 +42,12 @@ export default hopeTheme({
     plugins: {
         blog: true,
         mdEnhance: {
-            tasklist: true,
+            // 启用 mermaid
             mermaid: true,
+            // 启用代码演示
             demo: true,
+            // 启用自定义对齐
+            align: true,
         },
         // feed: {
         //     json: true,
