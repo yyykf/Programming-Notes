@@ -14,6 +14,7 @@ export const sidebarConfig = sidebar({
                 "the-gaudy-operation-of-initializing-HashMap",
                 "use-integer-as-monitor-of-synchronized",
                 "how-to-release-native-memory",
+                "filechannel-and-mappedbytebuffer",
             ],
         },
         {

@@ -18,3 +18,5 @@ dir:
 - [关于Integer作为synchronized锁对象的问题](use-integer-as-monitor-of-synchronized.md)
 
 - [Native内存的释放](how-to-release-native-memory)
+
+- [FileChannel和MappedByteBuffer](filechannel-and-mappedbytebuffer.md)
