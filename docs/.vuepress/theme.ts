@@ -48,6 +48,8 @@ export default hopeTheme({
             demo: true,
             // 启用自定义对齐
             align: true,
+            // 启用自定义容器
+            container: true,
         },
         // feed: {
         //     json: true,

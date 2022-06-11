@@ -51,6 +51,7 @@ export const sidebarConfig = sidebar({
             collapsable: true,
             children: [
                 'java-and-thread',
+                'the-troubleshooting-tools-of-jvm',
             ],
         },
         {
