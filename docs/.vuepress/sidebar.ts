@@ -13,6 +13,7 @@ export const sidebarConfig = sidebar({
                 "the-magic-number-that-hides-under-Threadlocal",
                 "the-gaudy-operation-of-initializing-HashMap",
                 "use-integer-as-monitor-of-synchronized",
+                "how-to-release-native-memory",
             ],
         },
         {
