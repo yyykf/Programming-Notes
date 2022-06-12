@@ -62,6 +62,7 @@ export const sidebarConfig = sidebar({
             children: [
                 'all-of-load-balance-strategies-in-dubbo',
                 'the-service-provider-interface-mechanism-of-dubbo',
+                'the-rpc-details-in-dubbo',
             ],
         },
         {
