@@ -61,6 +61,7 @@ export const sidebarConfig = sidebar({
             collapsable: true,
             children: [
                 'all-of-load-balance-strategies-in-dubbo',
+                'the-service-provider-interface-mechanism-of-dubbo',
             ],
         },
         {
