@@ -56,6 +56,14 @@ export const sidebarConfig = sidebar({
             ],
         },
         {
+            text: 'Dubbo',
+            prefix: "dubbo/",
+            collapsable: true,
+            children: [
+                'all-of-load-balance-strategies-in-dubbo',
+            ],
+        },
+        {
             text: '设计模式',
             prefix: "design-pattern/",
             collapsable: true,
