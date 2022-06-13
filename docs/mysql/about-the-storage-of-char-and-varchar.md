@@ -108,7 +108,7 @@ INSERT INTO vc VALUES ('ab', 'ab');
 
 重点看 `0x0000c078 - 0x0000c097` 这 32 个字节的内容。
 
-![INSERT INTO vc VALUES ('ab', 'ab');](../imgs/ibd_dump.png)
+![INSERT INTO vc VALUES ('ab', 'ab');](./assets/ibd_dump.png)
 
 根据 `Compact` 行格式的组成，我们可以确定：
 
