@@ -10,7 +10,6 @@ export default hopeTheme({
     title: "Code4j",
     description: "Code4j",
     // logo: "/logo.png",
-    // hostname: "https://www.code4j.co/",
     hostname,
     //指定 vuepress build 的输出目录
     dest: "./dist",
@@ -20,8 +19,6 @@ export default hopeTheme({
     },
     repo: 'https://github.com/yyykf/Programming-Notes',
     docsDir: "docs",
-    // iconPrefix: "iconfont icon-",
-    // pure: true,
     navbar: navbarConfig,
     sidebar: sidebarConfig,
     locales: {
@@ -29,16 +26,12 @@ export default hopeTheme({
             lang: "zh-CN"
         }
     },
-    // 自动生成侧边栏
-    // sidebar: "structure",
     blog: {
         name: "Code4j",
     },
 
-    // pageInfo: ["Author", "Category", "Tag", "Date", "Original", "Word"],
-    // footer:
-    // '<a href="https://beian.miit.gov.cn/" target="_blank">鄂ICP备2020015769号-1</a>',
-    // displayFooter: true,
+    footer: '<a href="https://beian.miit.gov.cn/" target="_blank">粤ICP备2021154025号</a>',
+    displayFooter: true,
     plugins: {
         blog: true,
         mdEnhance: {
