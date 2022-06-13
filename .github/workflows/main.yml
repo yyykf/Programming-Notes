@@ -45,7 +45,7 @@ jobs:
           # Arguments to pass to rsync
           # ARGS: # optional, default is -rltgoDz
           # Source directory
-          SOURCE: "./dist"
+          SOURCE: "dist"
           # Remote host
           REMOTE_HOST: 47.106.95.17
           # Remote user
