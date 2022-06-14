@@ -29,7 +29,20 @@ export default hopeTheme({
     blog: {
         name: "Code4j",
     },
-
+    head: [
+        // 百度统计
+        [
+            "script",
+            {},
+            `var _hmt = _hmt || [];
+            (function() {
+              var hm = document.createElement("script");
+              hm.src = "https://hm.baidu.com/hm.js?98503eced9a859fd9dba95eeff656c27";
+              var s = document.getElementsByTagName("script")[0]; 
+              s.parentNode.insertBefore(hm, s);
+            })();`
+        ]
+    ],
     footer: '<a href="https://beian.miit.gov.cn/" target="_blank">粤ICP备2021154025号</a>',
     displayFooter: true,
     plugins: {
