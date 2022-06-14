@@ -57,6 +57,15 @@ export default hopeTheme({
             // 启用自定义容器
             container: true,
         },
+        comment: {
+            provider: "Giscus",
+            repo: "yyykf/Programming-Notes",
+            repoId: "MDEwOlJlcG9zaXRvcnkzNzk3ODk2Njg=",
+            category: "Announcements",
+            categoryId: "DIC_kwDOFqMhZM4CPqDu",
+            mapping: "title",
+            reactionsEnabled: true
+        }
         // feed: {
         //     json: true,
         // },
