@@ -7,6 +7,9 @@ on:
   # Triggers the workflow on push request events but only for the "master" branch
   push:
     branches: [ "master" ]
+    # The workflow only run when push event include at least one file inside the docs directory
+    paths:
+      - 'docs/**'
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
@@ -21,7 +24,8 @@ jobs:
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-      - uses: actions/checkout@v3
+      - name: Checkout
+        uses: actions/checkout@v2
 
       # Setup Node.js environment
       - name: Setup Node
@@ -45,7 +49,7 @@ jobs:
           # Arguments to pass to rsync
           # ARGS: # optional, default is -rltgoDz
           # Source directory
-          SOURCE: "dist"
+          SOURCE: "docs/.vuepress/dist"
           # Remote host
           REMOTE_HOST: 47.106.95.17
           # Remote user
