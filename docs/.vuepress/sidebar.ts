@@ -81,6 +81,7 @@ export const sidebarConfig = sidebar({
             children: [
                 'how-to-design-a-thread-safe-queue',
                 'the-tutorial-of-class-diagram-of-mermaid',
+                'how-to-deploy-vuepress-by-github-actions',
             ]
         },
         {
