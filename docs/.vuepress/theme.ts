@@ -9,7 +9,7 @@ export default hopeTheme({
     port: "8080",
     title: "Code4j",
     description: "Code4j",
-    // logo: "/logo.png",
+    logo: "/logo.png",
     hostname,
     //指定 vuepress build 的输出目录
     dest: "./dist",
@@ -19,11 +19,18 @@ export default hopeTheme({
     },
     repo: 'https://github.com/yyykf/Programming-Notes',
     docsDir: "docs",
+    pure: true,
     navbar: navbarConfig,
     sidebar: sidebarConfig,
     locales: {
         "/": {
-            lang: "zh-CN"
+            lang: "zh-CN",
+            metaLocales: {
+                editLink: "在 GitHub 上编辑此页",
+                origin: "原创",
+                prev: "上一篇",
+                next: "下一篇",
+            },
         }
     },
     blog: {
@@ -69,20 +76,5 @@ export default hopeTheme({
         // feed: {
         //     json: true,
         // },
-        // search: {
-        //     // https://v2.vuepress.vuejs.org/zh/reference/plugin/search.html
-        //     // 排除首页
-        //     isSearchable: (page) => page.path !== '/',
-        //     maxSuggestions: 10,
-        //     hotKeys: ["s", "/"],
-        //     // 用于在页面的搜索索引中添加额外字段
-        //     getExtraFields: () => [],
-        //     locales: {
-        //       "/": {
-        //         placeholder: "搜索",
-        //       },
-        //     },
-        //   },
-
     },
 });

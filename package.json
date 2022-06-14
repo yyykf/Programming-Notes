@@ -1,6 +1,8 @@
 {
   "devDependencies": {
-    "vuepress": "^2.0.0-beta.46",
+    "@vuepress/client": "^2.0.0-beta.48",
+    "@vuepress/plugin-search": "^2.0.0-beta.48",
+    "vuepress": "^2.0.0-beta.48",
     "vuepress-theme-hope": "^2.0.0-beta.79"
   },
   "name": "programming-notes",
