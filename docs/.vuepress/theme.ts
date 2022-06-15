@@ -19,16 +19,23 @@ export default hopeTheme({
     },
     repo: 'https://github.com/yyykf/Programming-Notes',
     docsDir: "docs",
+    docsBranch: "master",
     pure: true,
     navbar: navbarConfig,
     sidebar: sidebarConfig,
     locales: {
         "/": {
+            routeLocales: {
+                "404msg": ["页面丢失了～"]
+            },
             metaLocales: {
                 editLink: "在 GitHub 上编辑此页",
                 origin: "原创",
                 prev: "上一篇",
                 next: "下一篇",
+                contributors: "贡献者",
+                lastUpdated: "上次更新时间",
+                toc: "目录",
             },
         }
     },
