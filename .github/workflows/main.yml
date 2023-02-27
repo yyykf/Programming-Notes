@@ -42,9 +42,9 @@ jobs:
         run: npm run docs:build
         
       - name: Deploy To Aliyun
-        uses: easingthemes/ssh-deploy@v2.2.11
+        uses: easingthemes/ssh-deploy@v4.1.8
         with:
-          # Private Key
+          # P     rivate Key
           SSH_PRIVATE_KEY: ${{ secrets.PRIVATE_KEY }}
           # Arguments to pass to rsync
           # ARGS: # optional, default is -rltgoDz
@@ -54,6 +54,8 @@ jobs:
           REMOTE_HOST: 47.106.95.17
           # Remote user
           REMOTE_USER: "root"
+          # Remote port
+          REMOTE_PORT: 50768
           # Target directory
           TARGET: "/root/blog"
           
