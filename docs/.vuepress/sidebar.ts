@@ -6,7 +6,7 @@ export const sidebarConfig = sidebar({
         {
             text: "Java",
             prefix: "java/",
-            collapsable: true,
+            collapsible: true,
             children: [
                 "the-notes-of-object-clone",
                 "what-happens-to-string-intern",
@@ -20,7 +20,7 @@ export const sidebarConfig = sidebar({
         {
             text: 'MySQL',
             prefix: "mysql/",
-            collapsable: true,
+            collapsible: true,
             children: [
                 'about-the-storage-of-char-and-varchar',
                 'the-difference-between-in-and-exists-for-sub-query',
@@ -30,7 +30,7 @@ export const sidebarConfig = sidebar({
         {
             text: 'Spring',
             prefix: "spring/",
-            collapsable: true,
+            collapsible: true,
             children: [
                 'how-to-make-operation-executed-after-transaction',
                 'the-proxy-mode',
@@ -40,7 +40,7 @@ export const sidebarConfig = sidebar({
         {
             text: 'Mybatis',
             prefix: "mybatis/",
-            collapsable: true,
+            collapsible: true,
             children: [
                 'the-secondary-cache-of-mybatis',
                 'usage-of-enumeration-in-mybatis'
@@ -49,7 +49,7 @@ export const sidebarConfig = sidebar({
         {
             text: 'JVM',
             prefix: "jvm/",
-            collapsable: true,
+            collapsible: true,
             children: [
                 'java-and-thread',
                 'the-troubleshooting-tools-of-jvm',
@@ -58,7 +58,7 @@ export const sidebarConfig = sidebar({
         {
             text: 'Dubbo',
             prefix: "dubbo/",
-            collapsable: true,
+            collapsible: true,
             children: [
                 'all-of-load-balance-strategies-in-dubbo',
                 'the-service-provider-interface-mechanism-of-dubbo',
@@ -68,7 +68,7 @@ export const sidebarConfig = sidebar({
         {
             text: '设计模式',
             prefix: "design-pattern/",
-            collapsable: true,
+            collapsible: true,
             children: [
                 'simple-factory-pattern',
                 'template-pattern'
@@ -77,7 +77,7 @@ export const sidebarConfig = sidebar({
         {
             text: '杂七杂八',
             prefix: "misc/",
-            collapsable: true,
+            collapsible: true,
             children: [
                 'how-to-design-a-thread-safe-queue',
                 'the-tutorial-of-class-diagram-of-mermaid',
@@ -87,7 +87,7 @@ export const sidebarConfig = sidebar({
         {
             text: '单元测试',
             prefix: "unit-test/",
-            collapsable: true,
+            collapsible: true,
             children: ["the-usage-of-junit5"]
         }
     ],

@@ -1,9 +1,10 @@
 {
   "devDependencies": {
-    "@vuepress/client": "^2.0.0-beta.48",
-    "@vuepress/plugin-search": "^2.0.0-beta.48",
-    "vuepress": "^2.0.0-beta.48",
-    "vuepress-theme-hope": "^2.0.0-beta.79"
+    "@vuepress/client": "2.0.0-beta.60",
+    "@vuepress/plugin-search": "2.0.0-beta.60",
+    "vue": "^3.2.47",
+    "vuepress": "2.0.0-beta.60",
+    "vuepress-theme-hope": "2.0.0-beta.182"
   },
   "name": "programming-notes",
   "description": "Programming changes the world~",
@@ -15,7 +16,8 @@
   "scripts": {
     "docs:dev": "vuepress dev docs",
     "docs:clean-dev": "vuepress dev docs --clean-cache",
-    "docs:build": "vuepress build docs"
+    "docs:build": "vuepress build docs",
+    "docs:update-package": "npx vp-update"
   },
   "repository": {
     "type": "git",

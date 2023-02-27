@@ -10,7 +10,7 @@ export default defineUserConfig({
             `var _hmt = _hmt || [];
             (function() {
               var hm = document.createElement("script");
-              hm.src = "https://hm.baidu.com/hm.js?98503eced9a859fd9dba95eeff656c27";
+              hm.src = "https://hm.baidu.com/hm.js?50fd97c48b060fbbcfa0a11c4257b817";
               var s = document.getElementsByTagName("script")[0]; 
               s.parentNode.insertBefore(hm, s);
             })();`

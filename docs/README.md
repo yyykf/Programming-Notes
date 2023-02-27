@@ -8,15 +8,19 @@ actions:
   - text: 开始阅读
     link: /home/
     type: primary
+  - text: 我的语雀
+    link: https://www.yuque.com/code4j
 features:
-- title: 简洁至上
-  details: 以 Markdown 为中心的项目结构，以最少的配置帮助你专注于写作。
-- title: Vue 驱动
-  details: 享受 Vue + webpack 的开发体验，可以在 Markdown 中使用 Vue 组件，又可以使用 Vue 来开发自定义主题。
-- title: 高性能
-  details: VuePress 会为每个页面预渲染生成静态的 HTML，同时，每个页面被加载的时候，将作为 SPA 运行。
-footer: |-
-  <a href="https://beian.miit.gov.cn/" target="_blank">粤ICP备2021154025号</a>
+- title: 所见
+  details: 眼有所见。
+# - title: 所思
+#   # details: 。
+- title: 所想
+  details: 心有所想。
 ---
 
-## 项目相关
+## 自我介绍
+
+Hello, 我叫鱼开饭，一枚默默与 Code 同行的新生代农民工。
+
+公众号 @Code4j

@@ -3,7 +3,7 @@ import { navbarConfig } from "./navbar";
 import { sidebarConfig } from "./sidebar";
 
 const hostname =
-    process.env.HOSTNAME || "https://www.code4j.co/";
+    process.env.HOSTNAME || "https://www.code4j.site/";
 
 export default hopeTheme({
     port: "8080",
@@ -26,7 +26,7 @@ export default hopeTheme({
     locales: {
         "/": {
             routeLocales: {
-                "404msg": ["页面丢失了～"]
+                "notFoundMsg": ["页面丢失了～"]
             },
             metaLocales: {
                 editLink: "在 GitHub 上编辑此页",
@@ -42,7 +42,7 @@ export default hopeTheme({
     blog: {
         name: "Code4j",
     },
-    footer: '<a href="https://beian.miit.gov.cn/" target="_blank">粤ICP备2021154025号</a>',
+    footer: '<a href="https://beian.miit.gov.cn/" target="_blank">粤ICP备2022140453号-1</a>',
     displayFooter: true,
     plugins: {
         blog: true,

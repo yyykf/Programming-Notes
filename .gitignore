@@ -5,14 +5,14 @@ node_modules/
 packages/*/lib/
 
 # Vuepress Cache
-.cache/
+docs/.vuepress/.cache/
 # Vuepress Temp
-.temp/
+docs/.vuepress/.temp/
 # Vuepress Output
-dist/
+docs/.vuepress/dist/
 
 # VS Code Config file
-# .vscode/
+.vscode/
 
 # Rollup Cache
 .rollup.cache/
