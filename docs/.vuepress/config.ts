@@ -15,6 +15,18 @@ export default defineUserConfig({
               s.parentNode.insertBefore(hm, s);
             })();`
         ],
+        // umami
+        [
+            "script", {},
+            `var _hmt = _hmt || [];
+            (function() {
+              var hm = document.createElement("script");
+              hm.src = "https://umami.code4j.site/script.js";
+              hm.data-website-id="41664a06-4383-4a06-bc87-2e39d03c6661"
+              var s = document.getElementsByTagName("script")[0]; 
+              s.parentNode.insertBefore(hm, s);
+            })();`
+        ],
     ],
     theme,
     // 是否开启默认预加载 js
