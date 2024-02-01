@@ -44,18 +44,18 @@ jobs:
       - name: Deploy To Aliyun
         uses: easingthemes/ssh-deploy@v4.1.8
         with:
-          # P     rivate Key
+          # Private Key
           SSH_PRIVATE_KEY: ${{ secrets.PRIVATE_KEY }}
           # Arguments to pass to rsync
           # ARGS: # optional, default is -rltgoDz
           # Source directory
           SOURCE: "docs/.vuepress/dist/"
           # Remote host
-          REMOTE_HOST: 47.106.95.17
+          REMOTE_HOST: ${{ secrets.HOST }}
           # Remote user
-          REMOTE_USER: "root"
+          REMOTE_USER: ${{ secrets.REMOTE_USER }}
           # Remote port
-          REMOTE_PORT: 50768
+          REMOTE_PORT: ${{ secrets.REMOTE_PORT }}
           # Target directory
           TARGET: "/root/blog"
           
