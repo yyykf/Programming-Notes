@@ -42,7 +42,7 @@ jobs:
         run: npm run docs:build
         
       - name: Deploy To Aliyun
-        uses: easingthemes/ssh-deploy@v4.1.8
+        uses: easingthemes/ssh-deploy@v5.0.0
         with:
           # Private Key
           SSH_PRIVATE_KEY: ${{ secrets.PRIVATE_KEY }}
